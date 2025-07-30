@@ -1,0 +1,38 @@
+/* web/static/registration.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.Reg {
+    position: relative;
+    left: 520px;
+    width: 150px;
+}
+
+.FormReg {
+    background-color: greenyellow;
+    width: 350px;
+    height: 350px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 15px;
+}

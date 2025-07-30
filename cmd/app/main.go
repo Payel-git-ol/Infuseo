@@ -15,9 +15,7 @@ func main() {
 	}
 
 	engine := html.New("./web/templates", ".html")
-	app := fiber.New(fiber.Config{
-		Views: engine,
-	})
+	app := fiber.New(fiber.Config{Views: engine})
 
 	app.Static("/static", "./web/static")
 

@@ -9,7 +9,7 @@ import (
 )
 
 func GetHandlerRegister(c *fiber.Ctx) error {
-	return c.Render("index", fiber.Map{
+	return c.Render("registration", fiber.Map{
 		"Title": "Регистрация",
 	})
 }
@@ -58,11 +58,11 @@ func PostHandlerRegister(c *fiber.Ctx) error {
 	}
 
 	return c.JSON(fiber.Map{
-		"message": "Пользователь успешно зарегистрирован",
+		/*"message": "Пользователь успешно зарегистрирован",
 		"user": fiber.Map{
 			"id":       newUser.ID,
 			"username": newUser.Username,
 			"email":    newUser.Email,
-		},
+		},*/
 	})
 }

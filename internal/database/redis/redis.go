@@ -7,7 +7,9 @@ import (
 )
 
 func init() {
-	InitDbRedis()
+	if err := InitDbRedis; err != nil {
+		log.Fatal("Ошибка инициализации REDI")
+	}
 }
 
 func InitDbRedis() {
