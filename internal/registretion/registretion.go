@@ -1,8 +1,9 @@
 package registration
 
 import (
-	"Infuseo/internal/database/sqlitedb"
+	"Infuseo/internal/database/mongo" // Изменяем импорт с sqlitedb на mongo
 	"Infuseo/internal/registretion/User"
+	"fmt"
 	"github.com/gofiber/fiber/v2"
 	"golang.org/x/crypto/bcrypt"
 	"time"
@@ -35,9 +36,15 @@ func PostHandlerRegister(c *fiber.Ctx) error {
 		})
 	}
 
-	// Проверяем, существует ли пользователь
-	var existingUser User.User
-	if err := sqlitedb.Db.Where("email = ? OR username = ?", email, username).First(&existingUser).Error; err == nil {
+	// Проверяем, существует ли пользователь в MongoDB
+	existingUser, err := mongo.FindUserByEmailOrUsername(email, username)
+	if err != nil {
+		// Это ошибка не типа ErrNoDocuments, а какая-то другая ошибка БД
+		return c.Status(fiber.StatusInternalServerError).JSON(fiber.Map{
+			"error": fmt.Sprintf("Ошибка при проверке существования пользователя: %v", err),
+		})
+	}
+	if existingUser != nil {
 		return c.Status(fiber.StatusBadRequest).JSON(fiber.Map{
 			"error": "Пользователь с таким email или именем уже существует",
 		})
@@ -45,24 +52,28 @@ func PostHandlerRegister(c *fiber.Ctx) error {
 
 	// Создаем нового пользователя
 	newUser := User.User{
+		// ID будет сгенерирован автоматически MongoDB, т.к. omitempty
 		Username:  username,
 		Password:  string(hashedPassword),
 		Email:     email,
 		CreatedAt: time.Now(),
 	}
 
-	if err := sqlitedb.Db.Create(&newUser).Error; err != nil {
+	// Сохраняем пользователя в MongoDB
+	_, err = mongo.InsertUser(newUser) // Вызываем функцию из пакета mongo
+	if err != nil {
 		return c.Status(fiber.StatusInternalServerError).JSON(fiber.Map{
-			"error": "Ошибка при создании пользователя",
+			"error": fmt.Sprintf("Ошибка при создании пользователя в базе данных: %v", err),
 		})
 	}
 
 	return c.JSON(fiber.Map{
-		/*"message": "Пользователь успешно зарегистрирован",
-		"user": fiber.Map{
-			"id":       newUser.ID,
-			"username": newUser.Username,
-			"email":    newUser.Email,
-		},*/
+		//"message": "Пользователь успешно зарегистрирован",
+		// Здесь можно вернуть более подробную информацию, если нужно
+		// "user": fiber.Map{
+		//    "id":       result.InsertedID, // ID теперь из MongoDB
+		//    "username": newUser.Username,
+		//    "email":    newUser.Email,
+		// },
 	})
 }
