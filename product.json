@@ -1,0 +1,904 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Кружка керамическая 'Кофейный арт'",
+      "category": "аксессуары",
+      "price": 899,
+      "description": "Керамическая кружка ручной работы с уникальным дизайном, объем 350 мл.",
+      "stock": 45,
+      "image": "mug_coffee_art.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Виски Jack Daniel's 0.7 л",
+      "category": "алкоголь",
+      "price": 2499,
+      "description": "Классический американский виски с мягким вкусом древесных нот.",
+      "stock": 23,
+      "image": "jack_daniels.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Сок Rich апельсиновый 1 л",
+      "category": "безалкогольные",
+      "price": 129,
+      "description": "Натуральный апельсиновый сок прямого отжима без добавления сахара.",
+      "stock": 67,
+      "image": "rich_orange.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Бокалы для вина набор 6 шт",
+      "category": "аксессуары",
+      "price": 1899,
+      "description": "Набор из 6 бокалов для красного вина из тонкого стекла.",
+      "stock": 12,
+      "image": "wine_glasses.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Пиво Heineken 0.5 л",
+      "category": "алкоголь",
+      "price": 149,
+      "description": "Светлое лагерное пиво с мягким хмелевым вкусом.",
+      "stock": 89,
+      "image": "heineken.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Чай Greenfield жасминовый 25 пак",
+      "category": "безалкогольные",
+      "price": 199,
+      "description": "Ароматный зеленый чай с лепестками жасмина.",
+      "stock": 56,
+      "image": "greenfield_jasmine.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Кофе в зернах Lavazza Qualita Oro 1 кг",
+      "category": "безалкогольные",
+      "price": 1499,
+      "description": "100% арабика с насыщенным вкусом и бархатистым ароматом.",
+      "stock": 34,
+      "image": "lavazza_coffee.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Шейкер для коктейлей Stainless Steel",
+      "category": "аксессуары",
+      "price": 799,
+      "description": "Профессиональный шейкер из нержавеющей стали для идеальных коктейлей.",
+      "stock": 18,
+      "image": "cocktail_shaker.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Водка Белуга Noble 0.7 л",
+      "category": "алкоголь",
+      "price": 1899,
+      "description": "Премиальная водка с исключительной мягкостью вкуса.",
+      "stock": 27,
+      "image": "beluga_vodka.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Лимонад Schweppes Манго-Маракуйя 0.33 л",
+      "category": "безалкогольные",
+      "price": 99,
+      "description": "Освежающий газированный лимонад с экзотическим вкусом.",
+      "stock": 72,
+      "image": "schweppes_mango.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Термос Stanley Adventure 0.75 л",
+      "category": "аксессуары",
+      "price": 4599,
+      "description": "Легендарный термос с вакуумной изоляцией сохраняет температуру до 40 часов.",
+      "stock": 9,
+      "image": "stanley_thermos.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Коньяк Армения 5 звезд 0.5 л",
+      "category": "алкоголь",
+      "price": 1299,
+      "description": "Выдержанный армянский коньяк с богатым букетом.",
+      "stock": 14,
+      "image": "armenia_cognac.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Молоко Parmalat ультрапастеризованное 1 л",
+      "category": "безалкогольные",
+      "price": 109,
+      "description": "Молоко с длительным сроком хранения без потери вкусовых качеств.",
+      "stock": 43,
+      "image": "parmalat_milk.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Соковыжималка для цитрусовых",
+      "category": "аксессуары",
+      "price": 1299,
+      "description": "Ручная соковыжималка для апельсинов, лимонов и грейпфрутов.",
+      "stock": 7,
+      "image": "citrus_juicer.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Вино красное Santa Carolina Merlot 0.75 л",
+      "category": "алкоголь",
+      "price": 899,
+      "description": "Чилийское вино с нотами спелых ягод и легкими танинами.",
+      "stock": 31,
+      "image": "santa_carolina.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Энергетик Red Bull 0.25 л",
+      "category": "безалкогольные",
+      "price": 149,
+      "description": "Классический энергетический напиток с таурином.",
+      "stock": 58,
+      "image": "red_bull.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Набор для виски (камни + стакан)",
+      "category": "аксессуары",
+      "price": 2499,
+      "description": "Набор из 4 охлаждающих камней и стакана для виски.",
+      "stock": 11,
+      "image": "whiskey_set.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Ром Bacardi Carta Blanca 0.7 л",
+      "category": "алкоголь",
+      "price": 1399,
+      "description": "Белый ром с Кубы с чистым свежим вкусом.",
+      "stock": 19,
+      "image": "bacardi_rum.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Минеральная вода Borjomi 0.75 л",
+      "category": "безалкогольные",
+      "price": 119,
+      "description": "Лечебно-столовая минеральная вода из Грузии.",
+      "stock": 62,
+      "image": "borjomi.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Френч-пресс Bodum 1 л",
+      "category": "аксессуары",
+      "price": 1599,
+      "description": "Стеклянный френч-пресс для приготовления кофе и чая.",
+      "stock": 8,
+      "image": "bodum_press.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Шампанское Abrau-Durso Brut 0.75 л",
+      "category": "алкоголь",
+      "price": 1299,
+      "description": "Российское игристое вино классического брют.",
+      "stock": 16,
+      "image": "abrau_durso.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Квас Очаковский традиционный 1 л",
+      "category": "безалкогольные",
+      "price": 89,
+      "description": "Натуральный хлебный квас, приготовленный по традиционному рецепту.",
+      "stock": 47,
+      "image": "ochakovskiy_kvas.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Набор для сомелье (штопор + термометр)",
+      "category": "аксессуары",
+      "price": 899,
+      "description": "Профессиональный набор для ценителей вина.",
+      "stock": 13,
+      "image": "sommelier_set.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Текила Olmeca Gold 0.7 л",
+      "category": "алкоголь",
+      "price": 1699,
+      "description": "Золотая текила из голубой агавы с мягким вкусом.",
+      "stock": 9,
+      "image": "olmeca_tequila.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Какао Nesquik порошок 400 г",
+      "category": "безалкогольные",
+      "price": 249,
+      "description": "Растворимый какао-напиток с витаминами.",
+      "stock": 38,
+      "image": "nesquik_cocoa.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Барная ложка из нержавеющей стали",
+      "category": "аксессуары",
+      "price": 299,
+      "description": "Профессиональная ложка для приготовления коктейлей.",
+      "stock": 21,
+      "image": "bar_spoon.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Ликер Baileys Original 0.7 л",
+      "category": "алкоголь",
+      "price": 1799,
+      "description": "Сливочный ликер с ирландским виски и шоколадными нотами.",
+      "stock": 17,
+      "image": "baileys.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Газированная вода Schweppes Soda 0.33 л",
+      "category": "безалкогольные",
+      "price": 69,
+      "description": "Классическая содовая без добавок.",
+      "stock": 84,
+      "image": "schweppes_soda.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Набор стаканов для виски 4 шт",
+      "category": "аксессуары",
+      "price": 1199,
+      "description": "Набор из 4 классических стаканов для виски.",
+      "stock": 15,
+      "image": "whiskey_glasses.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Вермут Martini Bianco 0.75 л",
+      "category": "алкоголь",
+      "price": 899,
+      "description": "Белый вермут с ароматом трав и специй.",
+      "stock": 22,
+      "image": "martini_bianco.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Чайник заварочный со стеклянной колбой",
+      "category": "аксессуары",
+      "price": 799,
+      "description": "Чайник с двойными стенками для идеального заваривания чая.",
+      "stock": 11,
+      "image": "tea_pot.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Пиво Guinness Draught 0.44 л",
+      "category": "алкоголь",
+      "price": 199,
+      "description": "Знаменитый ирландский стаут с кремовой пеной.",
+      "stock": 29,
+      "image": "guinness.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Сироп Monin Карамель 0.7 л",
+      "category": "безалкогольные",
+      "price": 599,
+      "description": "Ароматный сироп для кофе и коктейлей.",
+      "stock": 14,
+      "image": "monin_caramel.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Мерный стакан для бармена",
+      "category": "аксессуары",
+      "price": 349,
+      "description": "Точный мерный стакан из нержавеющей стали.",
+      "stock": 19,
+      "image": "jigger.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Абсент Jagermeister 0.5 л",
+      "category": "алкоголь",
+      "price": 1499,
+      "description": "Травяной ликер с уникальным вкусом 56 трав.",
+      "stock": 8,
+      "image": "jagermeister.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Компот ФрутоНяня Яблоко-Вишня 0.2 л",
+      "category": "безалкогольные",
+      "price": 49,
+      "description": "Детский компот без добавления сахара.",
+      "stock": 67,
+      "image": "fruto_nanya.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Подставка под бутылку вина",
+      "category": "аксессуары",
+      "price": 499,
+      "description": "Элегантная металлическая подставка для сервировки.",
+      "stock": 13,
+      "image": "wine_holder.jpg"
+    },
+    {
+      "id": 38,
+      "name": "Джин Beefeater London Dry 0.7 л",
+      "category": "алкоголь",
+      "price": 1399,
+      "description": "Классический лондонский сухой джин.",
+      "stock": 18,
+      "image": "beefeater.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Вода питьевая Aqua Minerale 1.5 л",
+      "category": "безалкогольные",
+      "price": 59,
+      "description": "Очищенная питьевая вода.",
+      "stock": 92,
+      "image": "aqua_minerale.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Набор трубочек для коктейлей",
+      "category": "аксессуары",
+      "price": 199,
+      "description": "Набор из 50 бумажных трубочек разных цветов.",
+      "stock": 24,
+      "image": "straws_set.jpg"
+    },
+    {
+      "id": 41,
+      "name": "Самогон Дедовский 0.5 л",
+      "category": "алкоголь",
+      "price": 799,
+      "description": "Традиционный самогон двойной перегонки.",
+      "stock": 7,
+      "image": "samogon.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Морс Ягодный сбор 1 л",
+      "category": "безалкогольные",
+      "price": 159,
+      "description": "Натуральный морс из смеси лесных ягод.",
+      "stock": 31,
+      "image": "berry_mors.jpg"
+    },
+    {
+      "id": 43,
+      "name": "Кулер для вина",
+      "category": "аксессуары",
+      "price": 899,
+      "description": "Металлический кулер для охлаждения бутылки.",
+      "stock": 9,
+      "image": "wine_cooler.jpg"
+    },
+    {
+      "id": 44,
+      "name": "Портвейн 777 0.75 л",
+      "category": "алкоголь",
+      "price": 499,
+      "description": "Крепленое вино с насыщенным вкусом.",
+      "stock": 16,
+      "image": "portwine_777.jpg"
+    },
+    {
+      "id": 45,
+      "name": "Гейнер Optimum Nutrition 2.3 кг",
+      "category": "безалкогольные",
+      "price": 2999,
+      "description": "Высококалорийная смесь для набора мышечной массы.",
+      "stock": 6,
+      "image": "on_gainer.jpg"
+    },
+    {
+      "id": 46,
+      "name": "Набор для декантации вина",
+      "category": "аксессуары",
+      "price": 2499,
+      "description": "Декантер и аэратор в подарочной упаковке.",
+      "stock": 5,
+      "image": "wine_decantor.jpg"
+    },
+    {
+      "id": 47,
+      "name": "Мескаль Del Maguey 0.7 л",
+      "category": "алкоголь",
+      "price": 4599,
+      "description": "Мексиканский дистиллят из агавы с гусеницей.",
+      "stock": 3,
+      "image": "mezcal.jpg"
+    },
+    {
+      "id": 48,
+      "name": "Комбуча Original 0.33 л",
+      "category": "безалкогольные",
+      "price": 199,
+      "description": "Натуральный ферментированный чайный напиток.",
+      "stock": 27,
+      "image": "kombucha.jpg"
+    },
+    {
+      "id": 49,
+      "name": "Ледогенератор бытовой",
+      "category": "аксессуары",
+      "price": 8999,
+      "description": "Компактный аппарат для производства льда.",
+      "stock": 4,
+      "image": "ice_maker.jpg"
+    },
+    {
+      "id": 50,
+      "name": "Сидр Somersby Яблоко 0.5 л",
+      "category": "алкоголь",
+      "price": 179,
+      "description": "Легкий сладкий яблочный сидр.",
+      "stock": 41,
+      "image": "somersby.jpg"
+    },
+    {
+      "id": 51,
+      "name": "Кефир Домик в деревне 1 л",
+      "category": "безалкогольные",
+      "price": 89,
+      "description": "Натуральный кефир 3.2% жирности.",
+      "stock": 53,
+      "image": "domik_kefir.jpg"
+    },
+    {
+      "id": 52,
+      "name": "Набор для мартини",
+      "category": "аксессуары",
+      "price": 1599,
+      "description": "2 бокала и шейкер в подарочной упаковке.",
+      "stock": 8,
+      "image": "martini_set.jpg"
+    },
+    {
+      "id": 53,
+      "name": "Пиво Балтика 9 крепкое 0.5 л",
+      "category": "алкоголь",
+      "price": 119,
+      "description": "Крепкое лагерное пиво с содержанием алкоголя 8%.",
+      "stock": 37,
+      "image": "baltika_9.jpg"
+    },
+    {
+      "id": 54,
+      "name": "Смузи J7 Манго-Маракуйя 0.33 л",
+      "category": "безалкогольные",
+      "price": 149,
+      "description": "Густой напиток на основе фруктового пюре.",
+      "stock": 22,
+      "image": "j7_smoothie.jpg"
+    },
+    {
+      "id": 55,
+      "name": "Держатель для бутылки на велосипед",
+      "category": "аксессуары",
+      "price": 599,
+      "description": "Удобный крепеж для бутылки с водой на раму велосипеда.",
+      "stock": 14,
+      "image": "bike_bottle_holder.jpg"
+    },
+    {
+      "id": 56,
+      "name": "Виски Johnnie Walker Red Label 0.7 л",
+      "category": "алкоголь",
+      "price": 1799,
+      "description": "Смешанный шотландский виски с насыщенным вкусом.",
+      "stock": 21,
+      "image": "johnnie_red.jpg"
+    },
+    {
+      "id": 57,
+      "name": "Иван-чай ферментированный 100 г",
+      "category": "безалкогольные",
+      "price": 399,
+      "description": "Традиционный русский травяной чай.",
+      "stock": 19,
+      "image": "ivan_tea.jpg"
+    },
+    {
+      "id": 58,
+      "name": "Подставка под горячее для кружки",
+      "category": "аксессуары",
+      "price": 199,
+      "description": "Пробковая подставка защитит стол от следов.",
+      "stock": 32,
+      "image": "cup_coaster.jpg"
+    },
+    {
+      "id": 59,
+      "name": "Настойка Байкал на кедровых орешках 0.5 л",
+      "category": "алкоголь",
+      "price": 899,
+      "description": "Ароматная горькая настойка на натуральных травах.",
+      "stock": 12,
+      "image": "baykal_nastoyka.jpg"
+    },
+    {
+      "id": 60,
+      "name": "Гранатовый сок Narni 1 л",
+      "category": "безалкогольные",
+      "price": 249,
+      "description": "Натуральный сок прямого отжима без добавок.",
+      "stock": 18,
+      "image": "narni_pomegranate.jpg"
+    },
+    {
+      "id": 61,
+      "name": "Чайник электрический 1.7 л",
+      "category": "аксессуары",
+      "price": 1499,
+      "description": "Электрочайник с автоматическим отключением.",
+      "stock": 7,
+      "image": "electric_kettle.jpg"
+    },
+    {
+      "id": 62,
+      "name": "Пиво Hoegaarden White 0.5 л",
+      "category": "алкоголь",
+      "price": 219,
+      "description": "Бельгийское пшеничное пиво с цитрусовыми нотами.",
+      "stock": 24,
+      "image": "hoegaarden.jpg"
+    },
+    {
+      "id": 63,
+      "name": "Кокосовая вода Vita Coco 0.33 л",
+      "category": "безалкогольные",
+      "price": 179,
+      "description": "Натуральная вода молодых кокосов.",
+      "stock": 16,
+      "image": "vita_coco.jpg"
+    },
+    {
+      "id": 64,
+      "name": "Дозатор для вина",
+      "category": "аксессуары",
+      "price": 499,
+      "description": "Устройство для контроля порций при наливании вина.",
+      "stock": 11,
+      "image": "wine_dispenser.jpg"
+    },
+    {
+      "id": 65,
+      "name": "Коньяк Hennessy VS 0.7 л",
+      "category": "алкоголь",
+      "price": 4599,
+      "description": "Французский коньяк с выдержкой не менее 2 лет.",
+      "stock": 7,
+      "image": "hennessy.jpg"
+    },
+    {
+      "id": 66,
+      "name": "Молочный коктейль Чудо Шоколад 0.33 л",
+      "category": "безалкогольные",
+      "price": 89,
+      "description": "Готовый молочный коктейль с шоколадным вкусом.",
+      "stock": 43,
+      "image": "chudo_shake.jpg"
+    },
+    {
+      "id": 67,
+      "name": "Фильтр для воды кувшинный",
+      "category": "аксессуары",
+      "price": 399,
+      "description": "Кувшин со сменным фильтром для очистки воды.",
+      "stock": 19,
+      "image": "water_filter.jpg"
+    },
+    {
+      "id": 68,
+      "name": "Саке Gekkeikan Traditional 0.72 л",
+      "category": "алкоголь",
+      "price": 1299,
+      "description": "Традиционное японское рисовое вино.",
+      "stock": 9,
+      "image": "gekkeikan.jpg"
+    },
+    {
+      "id": 69,
+      "name": "Тоник Schweppes Indian 0.33 л",
+      "category": "безалкогольные",
+      "price": 99,
+      "description": "Классический тоник с хинином.",
+      "stock": 37,
+      "image": "schweppes_tonic.jpg"
+    },
+    {
+      "id": 70,
+      "name": "Набор для пикника (4 стакана + термос)",
+      "category": "аксессуары",
+      "price": 2999,
+      "description": "Комплект для напитков в походных условиях.",
+      "stock": 6,
+      "image": "picnic_set.jpg"
+    },
+    {
+      "id": 71,
+      "name": "Вино белое Santa Carolina Chardonnay 0.75 л",
+      "category": "алкоголь",
+      "price": 899,
+      "description": "Чилийское вино с нотами тропических фруктов.",
+      "stock": 14,
+      "image": "santa_chardonnay.jpg"
+    },
+    {
+      "id": 72,
+      "name": "Комбуча со вкусом имбиря 0.33 л",
+      "category": "безалкогольные",
+      "price": 199,
+      "description": "Ферментированный чай с добавлением имбиря.",
+      "stock": 21,
+      "image": "kombucha_ginger.jpg"
+    },
+    {
+      "id": 73,
+      "name": "Подставка под бутылку в форме велосипеда",
+      "category": "аксессуары",
+      "price": 799,
+      "description": "Декоративная подставка для вина ручной работы.",
+      "stock": 5,
+      "image": "bike_wine_holder.jpg"
+    },
+    {
+      "id": 74,
+      "name": "Апероль 0.7 л",
+      "category": "алкоголь",
+      "price": 1499,
+      "description": "Итальянский аперитив с горьковато-апельсиновым вкусом.",
+      "stock": 13,
+      "image": "aperol.jpg"
+    },
+    {
+      "id": 75,
+      "name": "Яблочный сок Я 100% 1 л",
+      "category": "безалкогольные",
+      "price": 129,
+      "description": "Осветленный яблочный сок прямого отжима.",
+      "stock": 46,
+      "image": "ya_apple.jpg"
+    },
+    {
+      "id": 76,
+      "name": "Кофемолка ручная",
+      "category": "аксессуары",
+      "price": 1299,
+      "description": "Механическая кофемолка с керамическими жерновами.",
+      "stock": 8,
+      "image": "coffee_grinder.jpg"
+    },
+    {
+      "id": 77,
+      "name": "Пиво Corona Extra 0.33 л",
+      "category": "алкоголь",
+      "price": 189,
+      "description": "Мексиканский светлый лагер с лаймом.",
+      "stock": 27,
+      "image": "corona.jpg"
+    },
+    {
+      "id": 78,
+      "name": "Матча порошок 50 г",
+      "category": "безалкогольные",
+      "price": 599,
+      "description": "Японский зеленый чай в виде тонкого порошка.",
+      "stock": 12,
+      "image": "matcha.jpg"
+    },
+    {
+      "id": 79,
+      "name": "Силиконовая крышка для бокалов",
+      "category": "аксессуары",
+      "price": 299,
+      "description": "Набор из 4 крышек для защиты напитков от насекомых.",
+      "stock": 23,
+      "image": "glass_lid.jpg"
+    },
+    {
+      "id": 80,
+      "name": "Бренди Армения 5 лет 0.5 л",
+      "category": "алкоголь",
+      "price": 999,
+      "description": "Армянский бренди с выдержкой в дубовых бочках.",
+      "stock": 11,
+      "image": "armenian_brandy.jpg"
+    },
+    {
+      "id": 81,
+      "name": "Ряженка Вкуснотеево 2.5% 0.5 л",
+      "category": "безалкогольные",
+      "price": 79,
+      "description": "Традиционный кисломолочный напиток.",
+      "stock": 34,
+      "image": "ryazhenka.jpg"
+    },
+    {
+      "id": 82,
+      "name": "Барная стойка складная",
+      "category": "аксессуары",
+      "price": 5999,
+      "description": "Компактная стойка для домашнего бара.",
+      "stock": 3,
+      "image": "bar_counter.jpg"
+    },
+    {
+      "id": 83,
+      "name": "Виски Jameson 0.7 л",
+      "category": "алкоголь",
+      "price": 2299,
+      "description": "Ирландский виски тройной дистилляции.",
+      "stock": 15,
+      "image": "jameson.jpg"
+    },
+    {
+      "id": 84,
+      "name": "Орчата испанская 0.33 л",
+      "category": "безалкогольные",
+      "price": 179,
+      "description": "Традиционный испанский напиток из земляного миндаля.",
+      "stock": 9,
+      "image": "horchata.jpg"
+    },
+    {
+      "id": 85,
+      "name": "Набор для гравировки бокалов",
+      "category": "аксессуары",
+      "price": 899,
+      "description": "Инструменты для нанесения персональных надписей.",
+      "stock": 7,
+      "image": "engraving_set.jpg"
+    },
+    {
+      "id": 86,
+      "name": "Абсент Absente 0.7 л",
+      "category": "алкоголь",
+      "price": 1899,
+      "description": "Французский абсент с характерным анисовым вкусом.",
+      "stock": 6,
+      "image": "absente.jpg"
+    },
+    {
+      "id": 87,
+      "name": "Соевое молоко Alpro 1 л",
+      "category": "безалкогольные",
+      "price": 199,
+      "description": "Растительное молоко с добавлением кальция.",
+      "stock": 17,
+      "image": "alpro_soy.jpg"
+    },
+    {
+      "id": 88,
+      "name": "Держатель для винных пробок",
+      "category": "аксессуары",
+      "price": 499,
+      "description": "Деревянная подставка для коллекции пробок.",
+      "stock": 12,
+      "image": "cork_holder.jpg"
+    },
+    {
+      "id": 89,
+      "name": "Медовуха Старорусская 0.5 л",
+      "category": "алкоголь",
+      "price": 399,
+      "description": "Традиционный славянский напиток на основе меда.",
+      "stock": 14,
+      "image": "medovuha.jpg"
+    },
+    {
+      "id": 90,
+      "name": "Кола органическая Fritz 0.33 л",
+      "category": "безалкогольные",
+      "price": 149,
+      "description": "Натуральный газированный напиток без искусственных добавок.",
+      "stock": 23,
+      "image": "fritz_cola.jpg"
+    },
+    {
+      "id": 91,
+      "name": "Поднос для напитков бамбуковый",
+      "category": "аксессуары",
+      "price": 799,
+      "description": "Экологичный поднос для сервировки.",
+      "stock": 9,
+      "image": "bamboo_tray.jpg"
+    },
+    {
+      "id": 92,
+      "name": "Виски Macallan 12 лет 0.7 л",
+      "category": "алкоголь",
+      "price": 8999,
+      "description": "Шотландский односолодовый виски премиум-класса.",
+      "stock": 5,
+      "image": "macallan.jpg"
+    },
+    {
+      "id": 93,
+      "name": "Чай каркаде в пакетиках 20 шт",
+      "category": "безалкогольные",
+      "price": 149,
+      "description": "Чай из суданской розы с кисловатым вкусом.",
+      "stock": 28,
+      "image": "hibiscus_tea.jpg"
+    },
+    {
+      "id": 94,
+      "name": "Набор для саке (токкури + чашки)",
+      "category": "аксессуары",
+      "price": 1599,
+      "description": "Традиционный японский набор для подачи саке.",
+      "stock": 6,
+      "image": "sake_set.jpg"
+    },
+    {
+      "id": 95,
+      "name": "Кальвадос Busnel VSOP 0.7 л",
+      "category": "алкоголь",
+      "price": 3499,
+      "description": "Французский яблочный бренди с выдержкой.",
+      "stock": 4,
+      "image": "calvados.jpg"
+    },
+    {
+      "id": 96,
+      "name": "Морс клюквенный 1 л",
+      "category": "безалкогольные",
+      "price": 169,
+      "description": "Натуральный морс из северной клюквы.",
+      "stock": 19,
+      "image": "cranberry_mors.jpg"
+    },
+    {
+      "id": 97,
+      "name": "Кубики для льда силиконовые",
+      "category": "аксессуары",
+      "price": 299,
+      "description": "Формы для льда с крышкой (4 шт).",
+      "stock": 21,
+      "image": "ice_cubes.jpg"
+    },
+    {
+      "id": 98,
+      "name": "Пиво Stella Artois 0.5 л",
+      "category": "алкоголь",
+      "price": 179,
+      "description": "Бельгийский лагер с мягким вкусом.",
+      "stock": 33,
+      "image": "stella.jpg"
+    },
+    {
+      "id": 99,
+      "name": "Вода кокосовая Zico 1 л",
+      "category": "безалкогольные",
+      "price": 299,
+      "description": "Натуральная вода из молодых кокосов.",
+      "stock": 14,
+      "image": "zico.jpg"
+    },
+    {
+      "id": 100,
+      "name": "Открывалка для пивных крышек",
+      "category": "аксессуары",
+      "price": 199,
+      "description": "Магнитная открывалка для бутылок с креплением на стену.",
+      "stock": 27,
+      "image": "bottle_opener.jpg"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Infuseo</title>
+    <link rel="stylesheet" href="static/css/market1.css">
+</head>
+<body>
+<div class="products-container">
+    <form method="POST" action="/market">
+        <div class="shapka">
+            <input class="search" type="text" placeholder="Искать..." name="search">
+            <button class="find" type="submit">
+                ПОИСК
+            </button>
+        </div>
+    </form>
+
+    {{ range .Products }}
+    <div class="FormBy">
+        {{ if .Image }}
+        <img src="static/img/{{ .Image }}" alt="{{ .Name }}">
+        {{ else }}
+        <img src="static/img/Glob.jpeg" alt="Заглушка">
+        {{ end }}
+
+        <div class="description">{{ .Description }}</div>
+        <div class="price">{{ printf "%.0f" .Price }} ₽</div>
+        <div class="rating">★★★★☆</div>
+
+            <input type="hidden" name="product_id" value="{{ .ID }}">
+            <a href="/product/{{ .ID }}">
+                <button class="basket">Посмотреть</button>
+            </a>
+        
+    </div>
+    {{ end }}
+</div>
+</body>
+</html>

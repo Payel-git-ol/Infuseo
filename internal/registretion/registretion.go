@@ -10,9 +10,7 @@ import (
 )
 
 func GetHandlerRegister(c *fiber.Ctx) error {
-	return c.Render("registration", fiber.Map{
-		"Title": "Регистрация",
-	})
+	return c.Render("registration", fiber.Map{})
 }
 
 func PostHandlerRegister(c *fiber.Ctx) error {

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ .Product.Name }} - Infuseo</title>
+    <link rel="stylesheet" href="/static/css/market1.css">
+</head>
+<body>
+<div class="product-container">
+    <div class="product-card">
+        {{ if .Product.Image }}
+        <img src="static/img/{{ .Product.Image }}" alt="{{ .Product.Name }}">
+        {{ else }}
+        <img src="static/img/Glob.jpeg" alt="Заглушка">
+        {{ end }}
+
+        <h1>{{ .Product.Name }}</h1>
+        <p class="category">{{ .Product.Category }}</p>
+        <p class="description">{{ .Product.Description }}</p>
+        <div class="price">{{ printf "%.0f" .Product.Price }} ₽</div>
+        <div class="stock">В наличии: {{ .Product.Stock }} шт.</div>
+
+        <form method="POST" action="/product/{{ .Product.ID }}">
+            <button class="basket" type="submit">Добавить в корзину</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
