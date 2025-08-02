@@ -1,19 +1,11 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{ .Product.Name }} - Infuseo</title>
-    <link rel="stylesheet" href="/static/css/market/product/productmodel.css">
+    <title>Купить {{.Product.ID}}</title>
+    <link rel="stylesheet" href="/static/css/market/byproduct/byproductmodel.css">
 </head>
 <body>
-<form method="POST" action="/product/:{{.Product.ID}}">
-    <div class="shapka">
-        <input class="search" type="text" placeholder="Искать..." name="search">
-        <button class="find" type="submit">
-            ПОИСК
-        </button>
-    </div>
-</form>
 <div class="product-container">
     <div class="product-card">
         {{ if .Product.Image }}
@@ -27,13 +19,20 @@
         <p class="description">{{ .Product.Description }}</p>
         <div class="price">{{ printf "%.0f" .Product.Price }} ₽</div>
         <div class="stock">В наличии: {{ .Product.Stock }} шт.</div>
-
-        <!--<form method="POST" action="/product/{{ .Product.ID }}">-->
-        <a href="/buyproduct/{{.Product.ID}}">
-            <button class="basket" type="submit">Купить за {{printf "%.0f" .Product.Price}} ₽</button>
-        </a>
-        <!--</form>-->
     </div>
+</div>
+
+<div class="ByContainerMastercardVisa">
+    <img class="vizza" src="/static/img/vizza_large.png">
+    <a href="#"><button type="button" class="VizaButton">Выбрать</button></a>
+</div>
+
+<div class="ID_Search">
+    <h3 class="RAZDEL">Раздельная оплата</h3>
+    <input class="search_user" name="search_id" type="text" placeholder="поиск по ID">
+    <button class="find" type="submit">
+        ПОИСК
+    </button>
 </div>
 </body>
 </html>

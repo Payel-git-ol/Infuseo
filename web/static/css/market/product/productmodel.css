@@ -1,0 +1,131 @@
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 16px;
+}
+
+.shapka {
+    background-color: #1e1e1e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    border-bottom: 1px solid #2d2d2d;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.search {
+    flex-grow: 1;
+    max-width: 500px;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 25px;
+    font-size: 14px;
+    outline: none;
+    background-color: #252525;
+    color: #e0e0e0;
+    transition: all 0.3s ease;
+}
+
+.search::placeholder {
+    color: #666;
+}
+
+.search:focus {
+    border-color: #00a651;
+    box-shadow: 0 0 0 2px rgba(0, 166, 81, 0.2);
+}
+
+.find {
+    background-color: #00a651;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-left: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.find:hover {
+    background-color: #008c45;
+    transform: translateY(-1px);
+}
+
+.find:active {
+    transform: translateY(0);
+}
+
+/* Анимация появления */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.shapka {
+    animation: fadeIn 0.4s ease-out forwards;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .shapka {
+        height: 56px;
+        padding: 0 12px;
+    }
+
+    .search {
+        padding: 8px 16px;
+        font-size: 13px;
+    }
+
+    .find {
+        padding: 8px 16px;
+        font-size: 13px;
+        margin-left: 8px;
+    }
+}
+
+.product-container {
+    position: relative;
+    top:250px;
+}
+
+.price {
+    font-size: 25px;
+    color: #00a651;
+}
+
+.basket {
+    background-color: #00a651;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: auto; /* Прижимаем кнопку к низу */
+}
+
+.basket:hover {
+    background-color: #008c45;
+}

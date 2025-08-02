@@ -3,6 +3,7 @@ package main
 import (
 	mongodb "Infuseo/internal/database/mongo"
 	"Infuseo/internal/database/postgresdb"
+	"Infuseo/internal/handlerbuy"
 	"Infuseo/internal/market"
 	"Infuseo/internal/product"
 	"Infuseo/internal/registretion"
@@ -27,6 +28,8 @@ func main() {
 
 	app.Get("/product/:id", product.GetHandlerProduct)
 	app.Post("/product/:id", product.PostHandlerProduct)
+
+	app.Get("/buyproduct/:id", handlerbuy.GetBuy)
 
 	app.Listen(":8080")
 }
